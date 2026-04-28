@@ -1,0 +1,6 @@
+{
+  "name": "Higgsfield",
+  "description": "Official Higgsfield remote MCP connector for AI image and video generation in OpenClaw and Claude-compatible agents.",
+  "mcpServers": [".mcp.json"],
+  "skills": ["skills"]
+}
