@@ -8,13 +8,16 @@ Claude-format bundle for Higgsfield's official remote MCP connector.
 
 ## Install locally
 
+Clone or download this repository, then install the bundle directory:
+
 ```bash
+git clone https://github.com/efe-arv/openclaw-higgsfield-mcp-bundle.git
 openclaw plugins install ./openclaw-higgsfield-mcp-bundle
 openclaw plugins enable higgsfield
 openclaw gateway restart
 ```
 
-Or install from a git checkout/archive once published.
+Requires an OpenClaw version with bundle MCP HTTP transport support.
 
 ## What it includes
 
