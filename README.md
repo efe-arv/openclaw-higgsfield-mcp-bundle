@@ -4,6 +4,7 @@ Claude-format bundle for Higgsfield's official remote MCP connector.
 
 - Official landing page: <https://higgsfield.ai/mcp>
 - MCP endpoint: `https://mcp.higgsfield.ai/mcp`
+- OpenClaw compatibility bridge: `mcp-remote@0.1.38` over stdio
 - No OpenClaw API keys required; authenticate through Higgsfield's connector flow.
 
 ## Install locally
@@ -17,7 +18,7 @@ openclaw plugins enable higgsfield
 openclaw gateway restart
 ```
 
-Requires an OpenClaw version with bundle MCP HTTP transport support.
+Uses `mcp-remote` so current OpenClaw builds can connect to Higgsfield's remote MCP endpoint through stdio.
 
 ## What it includes
 

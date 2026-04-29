@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "higgsfield": {
-      "url": "https://mcp.higgsfield.ai/mcp",
-      "transport": "streamable-http",
+      "command": "npx",
+      "args": ["-y", "mcp-remote@0.1.38", "https://mcp.higgsfield.ai/mcp"],
       "connectionTimeoutMs": 30000
     }
   }

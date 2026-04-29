@@ -14,7 +14,7 @@ This bundle points to Higgsfield's official remote MCP endpoint:
 
 `https://mcp.higgsfield.ai/mcp`
 
-No API keys are configured in OpenClaw. The user authenticates with their Higgsfield account through Higgsfield's MCP connector flow.
+No API keys are configured in OpenClaw. The bundle uses `mcp-remote` as a stdio bridge to the official endpoint, and the user authenticates with their Higgsfield account through Higgsfield's MCP connector flow.
 
 ## Typical flow
 
